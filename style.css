@@ -26,6 +26,10 @@ h1  {
     margin: 0px;
 }
 
+img {
+    max-width: 100%;
+}
+
 .wrapper {
     max-width: 80%;
     margin: 0 auto;
@@ -70,4 +74,17 @@ section {
     display: flex;
     align-items: center;
     background-color: red;
+    gap: 1rem;
+}
+
+section div {
+    width: 50%;
+    background-color: brown;
+}
+
+.hero-img {
+    width: 500px;
+    height: 500px;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*");
+    object-fit: contain;
 }
