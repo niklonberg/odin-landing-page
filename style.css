@@ -43,6 +43,12 @@ nav ul {
     gap: 1rem;
 }
 
+section img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
 .hero-logo-text {
     font-size: 24px;
     color: var(--clr-hero-main-text);
