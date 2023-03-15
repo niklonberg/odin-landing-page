@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background-color: #1f2937;
+    background-color: var(--clr-dark-bg);
 }
 
 nav {
@@ -45,6 +45,6 @@ nav ul {
 
 .hero-secondary-text {
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--clr-secondary-main-text);
     text-decoration: none;
 }
