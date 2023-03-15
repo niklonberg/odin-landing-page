@@ -17,4 +17,17 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
