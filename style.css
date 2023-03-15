@@ -1,3 +1,12 @@
+:root {
+    --clr-dark-bg: #1f2937;
+    --clr-quote-bg: #e5e7eb;
+    --clr-hero-main-text:#f9faf8;
+    --clr-secondary-main-text:#e5e7eb;
+    --clr-main-text:#1f2937;
+    --clr-cta-btn: #3882f6;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -15,6 +24,7 @@ body {
 
 .wrapper {
     max-width: 80%;
+    margin: 0 auto;
 }
 
 header {
