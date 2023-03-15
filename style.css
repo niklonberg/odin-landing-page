@@ -66,3 +66,7 @@ section img {
     color: var(--clr-secondary-main-text);
     text-decoration: none;
 }
+
+section {
+    display: flex;
+}
