@@ -13,6 +13,10 @@ body {
     margin: 0 auto;
 }
 
+.wrapper {
+    max-width: 80%;
+}
+
 header {
     background-color: #1f2937;
 }
