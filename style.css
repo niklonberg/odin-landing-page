@@ -10,8 +10,11 @@ body {
     margin: 0px;
     padding: 0px;
     height: 100vh;
-    max-width: 80%;
     margin: 0 auto;
+}
+
+header {
+    background-color: #1f2937;
 }
 
 nav {
