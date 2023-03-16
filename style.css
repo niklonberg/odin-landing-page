@@ -146,6 +146,7 @@ blockquote {
     justify-content: space-between;
     padding: 1rem 6rem;
     border-radius: 0.5rem;
+    margin-bottom: 4rem;
 }
 
 .cta button {
@@ -166,5 +167,9 @@ blockquote {
 }
 
 footer {
-    
+    background-color: var(--clr-dark-bg);
+    color: var(--clr-hero-main-text);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
 }
