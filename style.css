@@ -121,6 +121,8 @@ article {
     width: 40%;
     margin: 0 auto;
     padding: 4rem 0 4rem 0;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 blockquote {
@@ -128,3 +130,9 @@ blockquote {
     font-style: italic;
 }
 
+.quote-wrapper p {
+    align-self: flex-end;
+    margin-top: -1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
