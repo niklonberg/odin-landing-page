@@ -93,8 +93,20 @@ section div {
 .gallery-title {
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .item {
-    background-color: purple;
+    flex: 0 1 200px;
+    text-align: center;
+}
+
+.item img {
+    border-radius: 1rem;
 }
