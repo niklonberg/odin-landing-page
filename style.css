@@ -80,3 +80,12 @@ section {
 section div {
     flex: 1;
 }
+
+.cta-btn {
+    background-color: var(--clr-cta-btn);
+    color: var(--clr-secondary-main-text);
+    font-weight: bold;
+    padding: 0.5rem 1.75rem;
+    border-radius: 0.5rem;
+    border: none;
+}
