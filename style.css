@@ -89,3 +89,12 @@ section div {
     border-radius: 0.5rem;
     border: none;
 }
+
+.gallery-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.item {
+    background-color: purple;
+}
