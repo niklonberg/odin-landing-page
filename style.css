@@ -152,6 +152,19 @@ blockquote {
     align-self: center;
 }
 
+.cta h3 {
+    color: var(--clr-hero-main-text);
+}
+
+.cta p {
+    color: var(--clr-secondary-main-text);
+    margin-top: -1rem;
+}
+
 .inverted {
     border: 2px solid white;
+}
+
+footer {
+    
 }
