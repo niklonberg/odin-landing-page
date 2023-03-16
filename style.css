@@ -138,3 +138,19 @@ blockquote {
     font-size: 18px;
     font-weight: bold;
 }
+
+.cta {
+    background-color: var(--clr-cta-btn);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.cta button {
+    align-self: center;
+    
+}
+
+.inverted {
+    border: 2px solid white;
+}
