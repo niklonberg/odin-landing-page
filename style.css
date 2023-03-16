@@ -92,21 +92,39 @@ section div {
 
 .gallery-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 36px;
     margin-bottom: 3rem;
 }
 
 .gallery {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     gap: 2rem;
+    margin-bottom: 4rem;
 }
 
 .item {
-    flex: 0 1 200px;
+    flex: 0 0 200px;
     text-align: center;
 }
 
 .item img {
     border-radius: 1rem;
 }
+
+article {
+    background-color: var(--clr-quote-bg);
+}
+
+.quote-wrapper {
+    width: 40%;
+    margin: 0 auto;
+    padding: 4rem 0 4rem 0;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+
