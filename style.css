@@ -19,6 +19,7 @@ body {
     margin: 0px;
     padding: 0px;
     margin: 0 auto;
+    font-family: "Roboto", Tahoma, sans-serif;
 }
 
 h1  {
@@ -118,7 +119,7 @@ article {
 }
 
 .quote-wrapper {
-    width: 40%;
+    max-width: 700px;
     margin: 0 auto;
     padding: 4rem 0 4rem 0;
     display: flex;
@@ -127,6 +128,7 @@ article {
 
 blockquote {
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
 }
 
