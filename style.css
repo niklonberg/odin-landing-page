@@ -124,6 +124,7 @@ article {
     padding: 4rem 2rem 4rem 2rem;
     display: flex;
     flex-flow: column nowrap;
+    margin-bottom: 4rem;
 }
 
 blockquote {
@@ -144,11 +145,11 @@ blockquote {
     display: flex;
     justify-content: space-between;
     padding: 1rem 6rem;
+    border-radius: 0.5rem;
 }
 
 .cta button {
     align-self: center;
-    
 }
 
 .inverted {
